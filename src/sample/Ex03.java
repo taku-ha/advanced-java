@@ -1,3 +1,4 @@
+package sample;
 public class Ex03 {
     public static void main(String[] args) {
         String message = "I have a apple";

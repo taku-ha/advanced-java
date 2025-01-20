@@ -1,3 +1,4 @@
+package sample;
 
 public class Ex05 {
     public static void main(String[] args) {
@@ -5,7 +6,11 @@ public class Ex05 {
         
         String[] bigNumbers = bigNumber.split(":") ;
 
-
-        System.out.println(bigNumber);
+        for(String bigNumber1 : bigNumbers) {
+        System.out.println(bigNumber1);
+        }
+    
     }
+
+
 }
